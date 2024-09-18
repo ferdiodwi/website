@@ -1,8 +1,6 @@
 <?php
-$host = "localhost";
-$user = "root";
-$pass = "";
-$db = "db_template"; // Ganti dengan nama database Anda
+
+include 'db.php';
 
 $conn = new mysqli($host, $user, $pass, $db);
 if ($conn->connect_error) {

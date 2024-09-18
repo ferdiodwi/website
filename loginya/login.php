@@ -1,13 +1,7 @@
 <?php
 session_start();
 
-// Database connection
-$host = "localhost";
-$user = "root";
-$pass = "";
-$db = "db_template"; // Ganti dengan nama database Anda
-
-$conn = new mysqli($host, $user, $pass, $db);
+include 'db.php';
 
 // Cek koneksi
 if ($conn->connect_error) {
