@@ -72,14 +72,14 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST') {
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <link href="https://fonts.googleapis.com/css?family=Roboto:300,400&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="register/css/bootstrap.min.css">
     <link rel="stylesheet" href="register/css/style.css">
 
     <title>Register</title>
   </head>
   <body>
     <div class="d-lg-flex half">
-      <div class="bg order-1 order-md-2" style="background-image: url('images/bg_1.jpg');"></div>
+      <div class="bg order-1 order-md-2" style="background-image: url('register/images/bg_1.jpg');"></div>
       <div class="contents order-2 order-md-1">
         <div class="container">
           <div class="row align-items-center justify-content-center">
